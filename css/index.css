@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+#head{
+    background-image: url("../img/head.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+h1{
+	color: #ffffff;
+	font-weight: bold;
+    font-size: 100px;
+    text-shadow: 3px 3px blue;
+}
+
+
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background: rgb(4, 4, 189); 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+    border: 3px solid white;
+}
+
+button:hover{
+    background-color:white;
+    color: blue;
+  border: 3px solid blue;
+}
+h1:hover{
+	color: blue;
+	text-shadow: 3px 3px #ffffff;
+}
+.card-deck{
+    padding-top: 50px;
+
+}
+.card{
+    padding-top:30px ;
+    background-color: blue;
+    color: white;
+}
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 30px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+}
+
