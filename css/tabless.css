@@ -5,7 +5,7 @@
 	font-family: sans-serif;
 }
 body{
-    background-image: url("../img/hist.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("../img/hist.jpg");
     color: white;
     text-shadow: 2px 2px #000000;
     font-weight: bolder;

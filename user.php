@@ -23,7 +23,7 @@
 ?>
 
 <div class="container">
-        <h2 class="text-center pt-4 ">Users</h2>
+        <h2 class="text-center pt-4 text-white ">Users</h2>
         <br>
             <div class="row">
                 <div class="col">

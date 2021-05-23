@@ -23,7 +23,7 @@
 ?>
 
 <div class="container">
-        <h2 class="text-center pt-4 ">Transfer Money</h2>
+        <h2 class="text-center pt-4 text-white ">Transfer Money</h2>
         <br>
             <div class="row">
                 <div class="col">

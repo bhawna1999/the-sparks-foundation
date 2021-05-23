@@ -1,5 +1,5 @@
 <!-- navbar --> 
-      <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-md navbar-dark">
       <a class="navbar-brand" href="index.php">THE SPARKS BANK</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -18,5 +18,6 @@
               <li class="nav-item">
                 <a class="nav-link text-white" href="transactionhistory.php">Transaction History</a>
               </li>
+              </ul>
           </div>
        </nav>

@@ -5,60 +5,72 @@
 	font-family: sans-serif;
 }
 #head{
-    background-image: url("../img/head.jpg");
-    background-repeat: no-repeat;
-  background-attachment: fixed;
+  
+  background :rgba(0,0,0,0.3) url("../img/header.jpg") no-repeat;
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 800px;
+  overflow: hidden;
+  background-blend-mode: overlay;
+  margin-bottom: 5px;
+  
 }
-h1{
-	color: #ffffff;
+
+#head h1 {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .10em solid white; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 20% auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	color: white;
+	text-shadow:5px 5px black;
+	font-size: 80px;
+	animation: 
+	  typing 3.5s steps(35, end),
+	  blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 95% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: white; }
+  }
+  
+.service h3{
+	text-align: center;
+	margin: 10%;
+	color: coral;
 	font-weight: bold;
-    font-size: 100px;
-    text-shadow: 3px 3px blue;
+	font-size: 40px;
+	text-shadow:3px 3px black;
 }
-
-
-button{
-	border:none;
-	border-radius: 8px;
-	padding: 10px;
-	background: rgb(4, 4, 189); 
-	color:white;
-	letter-spacing: 1.5px;
-	font-size: 15px;
-    border: 3px solid white;
+.service2{
+	background-image: linear-gradient(rgba(255,127,80,0.6),rgba(255,255,255,0.5));
 }
-
-button:hover{
-    background-color:white;
-    color: blue;
-  border: 3px solid blue;
-}
-h1:hover{
-	color: blue;
-	text-shadow: 3px 3px #ffffff;
-}
-.card-deck{
-    padding-top: 50px;
+.col-6{
+	text-align: center;
+	margin-bottom: 5%;
 
 }
-.card{
-    padding-top:30px ;
-    background-color: blue;
-    color: white;
+.col-6 h4{
+	text-align: center;
+	margin: 10%;
+	color: rgba(255,127,80,0.5);
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow:2px 2px black;
 }
-@media only screen and (orientation:portrait){
-	.intro{
-		display:flex;
-		flex-direction: column-reverse;
-	}
-	h1{
-		font-size: 30px;
-	}
-	.act{
-		padding-bottom: 100px;
-	}
-}
+ i{
 
+	color: white;
+	
+}
+i:hover{
+	color: coral;
+}

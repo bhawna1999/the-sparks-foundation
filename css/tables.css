@@ -5,7 +5,7 @@
 	font-family: sans-serif;
 }
 body{
-    background-image: url("../img/trans.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url("../img/trans.jpg");
     color: white;
     text-shadow: 2px 2px #000000;
     font-weight: bolder;
@@ -24,14 +24,16 @@ table{
 td{
 	text-align: center;
 }
+
 button{
 	border:none;
 	background: blue;
-    transition: 1s;
-    color: white;
-    
-      }
-      button:hover{
+  transition: 1s;
+  color: white;
+}
+      
+
+button:hover{
         background-color:white;
         color: blue;
       }
